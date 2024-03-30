@@ -4,4 +4,5 @@ let passport = {
 };
 let copyPassport = structuredClone(passport);
 copyPassport.name = "Ivan";
-console.log(passport, copyPassport);
+console.log(passport.name);
+console.log(copyPassport.name);
